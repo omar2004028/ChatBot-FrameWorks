@@ -6,6 +6,12 @@ Actualmente se encuentra desplegado en Render:
 
 🔗 https://chatbot-frameworks-page.onrender.com
 
+⚠️ Advertencia, por favor tenga en cuenta que el Chatbot puede tardar en responder ya que esta subido en Render con su plan gratuito.
+
+En caso de que el chatbot no responda de 30 a 60 segundos, refresque la pagina o cierre y vuelva a entrar.
+
+Luego de que el Chatbot responda, quiere decir que el server de Render esta activo pero no por mucho tiempo. aproximadamente unos 15 minutos, luego de eso si no hay actividad el server se vuelve a dormir y tendra que esperar nuevamente a que el server arranque. 
+
 ---
 
 ## 🚀 Tecnologías usadas
