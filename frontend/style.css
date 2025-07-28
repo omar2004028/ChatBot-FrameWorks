@@ -125,3 +125,19 @@ h1 {
     color: red;
     font-weight: bold;
 }
+
+footer {
+    background-color: #1f1f1f; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px 0; /* Espaciado arriba y abajo */
+    text-align: center; /* Centrado del texto */
+    font-size: 14px;
+    margin-top: 1px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Sombra superior */
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
