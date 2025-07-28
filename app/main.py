@@ -44,3 +44,10 @@ def obtener_respuesta(p: Pregunta):
         return {"respuesta": response.choices[0].message.content}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+# Ruta raíz para evitar error 404 en Render
+@app.get("/")
+def read_root():
+    return {"mensaje": "La API está funcionando correctamente"}
+
